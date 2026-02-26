@@ -15,4 +15,5 @@ int main() {
 	std::cout << "Das fertige Netzwerk-Paket ist " << network_data.size() << " Bytes gross." << std::endl;
 
 	return 0;
+
 }
