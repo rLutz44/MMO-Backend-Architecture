@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\build\CMakeFiles\65b4a274eca7aedc1155bec0158fa212\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C43219D0-A404-3C7D-9AA9-425198FB4DE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

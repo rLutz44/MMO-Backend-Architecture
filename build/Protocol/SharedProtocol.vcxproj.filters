@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\build\Protocol\messages.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\build\Protocol\messages.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\build\CMakeFiles\069be586dcc1d191675d362eb6b9d5c8\messages.pb.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Protocol\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C43219D0-A404-3C7D-9AA9-425198FB4DE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{982898E3-7954-318A-B3F1-9003867A230D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{067285D0-49B6-33CC-A218-A2A2F7101726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

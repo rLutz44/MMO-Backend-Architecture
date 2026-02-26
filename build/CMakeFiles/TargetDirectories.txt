@@ -1,0 +1,4 @@
+C:/Users/Robert/WORK/MMO-Backend-Architecture/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Robert/WORK/MMO-Backend-Architecture/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Robert/WORK/MMO-Backend-Architecture/build/Protocol/CMakeFiles/SharedProtocol.dir
+C:/Users/Robert/WORK/MMO-Backend-Architecture/build/Server/CMakeFiles/GameServer.dir

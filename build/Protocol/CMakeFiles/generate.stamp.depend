@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeParseArguments.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/SelectLibraryConfigurations.cmake
+C:/Users/Robert/WORK/MMO-Backend-Architecture/Protocol/CMakeLists.txt
+C:/dev/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake
+C:/dev/vcpkg/installed/x64-windows/share/absl/abslConfigVersion.cmake
+C:/dev/vcpkg/installed/x64-windows/share/absl/abslTargets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/absl/abslTargets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/absl/abslTargets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-config-version.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-generate.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-module.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-options.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake
+C:/dev/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets.cmake
