@@ -1,5 +1,6 @@
 #include <iostream>
 #include "messages.pb.h"
+#include "CoreStateEngine.h"
 
 
 int main() {
@@ -13,6 +14,8 @@ int main() {
 
 	std::cout << "--- MMO Server Start ---" << std::endl;
 	std::cout << "Das fertige Netzwerk-Paket ist " << network_data.size() << " Bytes gross." << std::endl;
+
+
 
 	return 0;
 

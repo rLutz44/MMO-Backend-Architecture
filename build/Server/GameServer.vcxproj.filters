@@ -4,11 +4,25 @@
     <ClCompile Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\CoreStateEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\ClientState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\CoreStateEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{982898E3-7954-318A-B3F1-9003867A230D}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{067285D0-49B6-33CC-A218-A2A2F7101726}</UniqueIdentifier>
     </Filter>

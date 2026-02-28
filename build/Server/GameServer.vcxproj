@@ -414,6 +414,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\main.cpp" />
+    <ClInclude Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\ClientState.h" />
+    <ClInclude Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\CoreStateEngine.h" />
+    <ClCompile Include="C:\Users\Robert\WORK\MMO-Backend-Architecture\Server\src\CoreStateEngine.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

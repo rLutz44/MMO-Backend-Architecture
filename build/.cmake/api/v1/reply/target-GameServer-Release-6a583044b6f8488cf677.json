@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Server/MinSizeRel/GameServer.exe"
+			"path" : "Server/Release/GameServer.exe"
 		},
 		{
-			"path" : "Server/MinSizeRel/GameServer.pdb"
+			"path" : "Server/Release/GameServer.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -146,7 +146,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"defines" : 
@@ -183,7 +183,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				3
 			]
 		}
 	],
@@ -203,7 +204,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -216,7 +217,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\MinSizeRel\\SharedProtocol.lib",
+				"fragment" : "..\\Protocol\\Release\\SharedProtocol.lib",
 				"role" : "libraries"
 			},
 			{
@@ -259,7 +260,16 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2
 			]
 		}
 	],
@@ -269,6 +279,22 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "Server/src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Server/src/ClientState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Server/src/CoreStateEngine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Server/src/CoreStateEngine.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

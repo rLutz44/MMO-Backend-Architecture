@@ -20,10 +20,10 @@
 			"id" : "SharedProtocol::@4254356942813434de67"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "GameServer::@20a40c4b36ca103854cb"
 		},
 		{
-			"id" : "GameServer::@20a40c4b36ca103854cb"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
