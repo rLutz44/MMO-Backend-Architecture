@@ -40,7 +40,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 1,
+				"line" : 2,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 2,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
@@ -191,11 +191,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "SharedProtocol::@4254356942813434de67"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "SharedProtocol::@4254356942813434de67"
 		}
 	],
 	"id" : "GameServer::@20a40c4b36ca103854cb",
@@ -214,6 +214,11 @@
 			{
 				"fragment" : "/subsystem:console",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\Protocol\\Debug\\SharedProtocol.lib",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,

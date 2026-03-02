@@ -1,6 +1,9 @@
 #include <iostream>
+#include <asio.hpp>
+
 #include "messages.pb.h"
 #include "CoreStateEngine.h"
+
 
 
 int main() {

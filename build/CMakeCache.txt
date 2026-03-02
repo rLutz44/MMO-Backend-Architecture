@@ -255,6 +255,9 @@ _VCPKG_INSTALLED_DIR:PATH=C:/dev/vcpkg/installed
 //The directory containing a CMake configuration file for absl.
 absl_DIR:PATH=C:/dev/vcpkg/installed/x64-windows/share/absl
 
+//The directory containing a CMake configuration file for asio.
+asio_DIR:PATH=C:/dev/vcpkg/installed/x64-windows/share/asio
+
 //CMake built-in FindProtobuf.cmake module compatible
 protobuf_MODULE_COMPATIBLE:BOOL=OFF
 

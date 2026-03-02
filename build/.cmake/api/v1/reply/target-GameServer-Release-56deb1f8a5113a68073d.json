@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Server/MinSizeRel/GameServer.exe"
+			"path" : "Server/Release/GameServer.exe"
 		},
 		{
-			"path" : "Server/MinSizeRel/GameServer.pdb"
+			"path" : "Server/Release/GameServer.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -40,7 +40,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 1,
+				"line" : 2,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 2,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
@@ -146,7 +146,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"defines" : 
@@ -191,11 +191,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "SharedProtocol::@4254356942813434de67"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "SharedProtocol::@4254356942813434de67"
 		}
 	],
 	"id" : "GameServer::@20a40c4b36ca103854cb",
@@ -204,7 +204,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -217,7 +217,12 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\MinSizeRel\\SharedProtocol.lib",
+				"fragment" : "..\\Protocol\\Release\\SharedProtocol.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\Protocol\\Release\\SharedProtocol.lib",
 				"role" : "libraries"
 			},
 			{
