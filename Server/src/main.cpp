@@ -8,17 +8,19 @@
 
 int main() {
 
-	mmo::network::LoginRequest request;
-	request.set_username("test");
-	request.set_password("abc123");
+	asio::io_context io;
 
-	std::string network_data;
-	request.SerializeToString(&network_data);
+	asio::ip::tcp::endpoint endpoint(asio::ip::tcp::v4(), 8080);
 
-	std::cout << "--- MMO Server Start ---" << std::endl;
-	std::cout << "Das fertige Netzwerk-Paket ist " << network_data.size() << " Bytes gross." << std::endl;
+	asio::ip::tcp::socket socket(io);
 
+	asio::ip::tcp::acceptor acceptor(io, endpoint);
 
+	acceptor.accept(socket);
+
+	std::cout << "Client connected" << std::endl;
+
+	io.run();
 
 	return 0;
 
