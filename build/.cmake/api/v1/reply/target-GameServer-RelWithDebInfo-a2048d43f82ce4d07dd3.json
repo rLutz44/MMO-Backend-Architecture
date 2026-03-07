@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Server/Debug/GameServer.exe"
+			"path" : "Server/RelWithDebInfo/GameServer.exe"
 		},
 		{
-			"path" : "Server/Debug/GameServer.pdb"
+			"path" : "Server/RelWithDebInfo/GameServer.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -146,7 +146,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"defines" : 
@@ -191,11 +191,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "SharedProtocol::@4254356942813434de67"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "GameServer::@20a40c4b36ca103854cb",
@@ -204,7 +204,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -217,27 +217,27 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\Debug\\SharedProtocol.lib",
+				"fragment" : "..\\Protocol\\RelWithDebInfo\\SharedProtocol.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\Debug\\SharedProtocol.lib",
+				"fragment" : "..\\Protocol\\RelWithDebInfo\\SharedProtocol.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\libprotobufd.lib",
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\libprotobuf.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
-				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\utf8_validity.lib",
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\utf8_validity.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
-				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\abseil_dll.lib",
+				"fragment" : "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\abseil_dll.lib",
 				"role" : "libraries"
 			},
 			{

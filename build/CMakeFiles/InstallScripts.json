@@ -3,7 +3,8 @@
 	[
 		"C:/Users/Robert/WORK/MMO-Backend-Architecture/build/cmake_install.cmake",
 		"C:/Users/Robert/WORK/MMO-Backend-Architecture/build/Protocol/cmake_install.cmake",
-		"C:/Users/Robert/WORK/MMO-Backend-Architecture/build/Server/cmake_install.cmake"
+		"C:/Users/Robert/WORK/MMO-Backend-Architecture/build/Server/cmake_install.cmake",
+		"C:/Users/Robert/WORK/MMO-Backend-Architecture/build/GM_Tool/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

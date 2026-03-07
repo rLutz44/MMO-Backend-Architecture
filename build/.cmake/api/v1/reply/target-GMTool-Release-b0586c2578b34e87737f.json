@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Server/MinSizeRel/GameServer.exe"
+			"path" : "GM_Tool/Release/GMTool.exe"
 		},
 		{
-			"path" : "Server/MinSizeRel/GameServer.pdb"
+			"path" : "GM_Tool/Release/GMTool.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -24,7 +24,7 @@
 		"files" : 
 		[
 			"C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
-			"Server/CMakeLists.txt",
+			"GM_Tool/CMakeLists.txt",
 			"Protocol/CMakeLists.txt",
 			"C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake",
 			"C:/dev/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake",
@@ -40,7 +40,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 2,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
@@ -146,7 +146,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"defines" : 
@@ -183,28 +183,27 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				3
+				0
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "SharedProtocol::@4254356942813434de67"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "GameServer::@20a40c4b36ca103854cb",
+	"id" : "GMTool::@623a00f7ed40a486d6e5",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -217,12 +216,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\MinSizeRel\\SharedProtocol.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "..\\Protocol\\MinSizeRel\\SharedProtocol.lib",
+				"fragment" : "..\\Protocol\\Release\\SharedProtocol.lib",
 				"role" : "libraries"
 			},
 			{
@@ -252,12 +246,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GameServer",
-	"nameOnDisk" : "GameServer.exe",
+	"name" : "GMTool",
+	"nameOnDisk" : "GMTool.exe",
 	"paths" : 
 	{
-		"build" : "Server",
-		"source" : "Server"
+		"build" : "GM_Tool",
+		"source" : "GM_Tool"
 	},
 	"sourceGroups" : 
 	[
@@ -265,16 +259,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				3
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1,
-				2
+				0
 			]
 		}
 	],
@@ -283,23 +268,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "Server/src/main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "Server/src/ClientState.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "Server/src/CoreStateEngine.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "Server/src/CoreStateEngine.cpp",
+			"path" : "GM_Tool/src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

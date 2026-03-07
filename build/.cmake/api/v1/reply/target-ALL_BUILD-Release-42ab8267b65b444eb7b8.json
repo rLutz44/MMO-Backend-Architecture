@@ -17,13 +17,16 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "SharedProtocol::@4254356942813434de67"
 		},
 		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "GameServer::@20a40c4b36ca103854cb"
+		},
+		{
+			"id" : "GMTool::@623a00f7ed40a486d6e5"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",

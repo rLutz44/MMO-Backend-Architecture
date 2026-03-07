@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -21,7 +22,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						3
+						4
 					]
 				},
 				{
@@ -36,7 +37,7 @@
 					"source" : "Protocol",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -51,6 +52,21 @@
 					"source" : "Server",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "GM_Tool",
+					"jsonFile" : "directory-GM_Tool-Debug-e4cfa59029576bfa53db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GM_Tool",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -63,7 +79,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "CoreStateEngine",
 					"targetIndexes" : 
@@ -71,7 +88,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -80,14 +98,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-bd93dc6f86bb28e1f709.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-42ab8267b65b444eb7b8.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GMTool::@623a00f7ed40a486d6e5",
+					"jsonFile" : "target-GMTool-Debug-5758dedf9d2a0e88edef.json",
+					"name" : "GMTool",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameServer::@20a40c4b36ca103854cb",
-					"jsonFile" : "target-GameServer-Debug-a239f6d03f4c00ed9ce7.json",
+					"jsonFile" : "target-GameServer-Debug-a06dee0e69a50c77231b.json",
 					"name" : "GameServer",
 					"projectIndex" : 0
 				},
@@ -115,7 +140,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -127,7 +153,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						3
+						4
 					]
 				},
 				{
@@ -142,7 +168,7 @@
 					"source" : "Protocol",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -157,6 +183,21 @@
 					"source" : "Server",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "GM_Tool",
+					"jsonFile" : "directory-GM_Tool-Release-e4cfa59029576bfa53db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GM_Tool",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -169,7 +210,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "CoreStateEngine",
 					"targetIndexes" : 
@@ -177,7 +219,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -186,14 +229,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-bd93dc6f86bb28e1f709.json",
+					"jsonFile" : "target-ALL_BUILD-Release-42ab8267b65b444eb7b8.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GMTool::@623a00f7ed40a486d6e5",
+					"jsonFile" : "target-GMTool-Release-b0586c2578b34e87737f.json",
+					"name" : "GMTool",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameServer::@20a40c4b36ca103854cb",
-					"jsonFile" : "target-GameServer-Release-56deb1f8a5113a68073d.json",
+					"jsonFile" : "target-GameServer-Release-b2b9d3160549aed03b07.json",
 					"name" : "GameServer",
 					"projectIndex" : 0
 				},
@@ -221,7 +271,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -233,7 +284,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						3
+						4
 					]
 				},
 				{
@@ -248,7 +299,7 @@
 					"source" : "Protocol",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -263,6 +314,21 @@
 					"source" : "Server",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "GM_Tool",
+					"jsonFile" : "directory-GM_Tool-MinSizeRel-e4cfa59029576bfa53db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GM_Tool",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -275,7 +341,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "CoreStateEngine",
 					"targetIndexes" : 
@@ -283,7 +350,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -292,14 +360,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bd93dc6f86bb28e1f709.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-42ab8267b65b444eb7b8.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GMTool::@623a00f7ed40a486d6e5",
+					"jsonFile" : "target-GMTool-MinSizeRel-972a024f94be928208cf.json",
+					"name" : "GMTool",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameServer::@20a40c4b36ca103854cb",
-					"jsonFile" : "target-GameServer-MinSizeRel-e88ed4e4fee6cf341238.json",
+					"jsonFile" : "target-GameServer-MinSizeRel-102d2910ebda84d39082.json",
 					"name" : "GameServer",
 					"projectIndex" : 0
 				},
@@ -327,7 +402,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -339,7 +415,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						3
+						4
 					]
 				},
 				{
@@ -354,7 +430,7 @@
 					"source" : "Protocol",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -369,6 +445,21 @@
 					"source" : "Server",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "GM_Tool",
+					"jsonFile" : "directory-GM_Tool-RelWithDebInfo-e4cfa59029576bfa53db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GM_Tool",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -381,7 +472,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "CoreStateEngine",
 					"targetIndexes" : 
@@ -389,7 +481,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -398,14 +491,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bd93dc6f86bb28e1f709.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-42ab8267b65b444eb7b8.json",
 					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GMTool::@623a00f7ed40a486d6e5",
+					"jsonFile" : "target-GMTool-RelWithDebInfo-fe45733b1ac2c2f8c406.json",
+					"name" : "GMTool",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameServer::@20a40c4b36ca103854cb",
-					"jsonFile" : "target-GameServer-RelWithDebInfo-af281c73ec731f34d493.json",
+					"jsonFile" : "target-GameServer-RelWithDebInfo-a2048d43f82ce4d07dd3.json",
 					"name" : "GameServer",
 					"projectIndex" : 0
 				},
