@@ -18,18 +18,26 @@ int main() {
 
 	asio::ip::tcp::acceptor acceptor(io, endpoint);
 
-	acceptor.accept(socket);
+	acceptor.async_accept(socket, [&](const asio::error_code& error) {
+		if (!error) {
+			std::cout << "Client connected" << std::endl;
 
-	std::array<char, 1024> buffer;
+			std::array<char, 1024> buffer;
+			auto length = socket.read_some(asio::buffer(buffer), errorcode);
 
-	auto length = socket.read_some(asio::buffer(buffer), errorcode);
-
-	mmo::network::LoginRequest incomingRequest;
-	if (!incomingRequest.ParseFromArray(buffer.data(), length)) {
-		std::cout << "Failed to parse message" << std::endl;
-	}
+			mmo::network::LoginRequest incomingRequest;
+			if (!incomingRequest.ParseFromArray(buffer.data(), length)) {
+				std::cout << "Failed to parse message" << std::endl;
+			}
 	
-	std::cout << "Login request received: " << incomingRequest.username() << " | Password: " << incomingRequest.password() << std::endl;
+			std::cout << "Login request received: " << incomingRequest.username() << " | Password: " << incomingRequest.password() << std::endl;
+
+		}
+		else {
+			std::cout << "Failed to accept connection: " << error.message() << std::endl;
+		}
+	});
+
 
 	io.run();
 
