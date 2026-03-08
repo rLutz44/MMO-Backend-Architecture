@@ -24,11 +24,12 @@ int main() {
 
 	auto length = socket.read_some(asio::buffer(buffer), errorcode);
 
-	std::cout << "Client connected" << std::endl;
-	std::cout << "Buffer output: ";
-	std::cout.write(buffer.data(), length);
-	std::cout << std::endl;
+	mmo::network::LoginRequest incomingRequest;
+	if (!incomingRequest.ParseFromArray(buffer.data(), length)) {
+		std::cout << "Failed to parse message" << std::endl;
+	}
 	
+	std::cout << "Login request received: " << incomingRequest.username() << " | Password: " << incomingRequest.password() << std::endl;
 
 	io.run();
 
