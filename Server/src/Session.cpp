@@ -35,7 +35,7 @@ void Session::do_write()
 {
 	auto self = shared_from_this();
 
-	auto response = std::make_shared<std::string>("Server response: Login succesful ");
+	auto response = std::make_shared<std::string>("Login succesful ");
 
 	asio::async_write(socket, asio::buffer(*response), [this, self, response](const asio::error_code& error, size_t length) {
 		if (!error) {
