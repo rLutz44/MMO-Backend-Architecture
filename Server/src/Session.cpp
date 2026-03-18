@@ -21,7 +21,7 @@ void Session::do_read() {
 			}
 
 			std::cout << "Login request received: " << incomingRequest.username() << " | Password: " << incomingRequest.password() << std::endl;
-
+			do_write();
 		}
 		else {
 			std::cout << "Error reading from socket: " << read_error.message() << std::endl;
@@ -29,6 +29,23 @@ void Session::do_read() {
 
 	});
 
+}
+
+void Session::do_write()
+{
+	auto self = shared_from_this();
+
+	auto response = std::make_shared<std::string>("Server response: Login succesful ");
+
+	asio::async_write(socket, asio::buffer(*response), [this, self, response](const asio::error_code& error, size_t length) {
+		if (!error) {
+			std::cout << "Response sent to client: " << *response << std::endl;
+			do_read();
+		}
+		else {
+			std::cout << "Error writing to socket: " << error.message() << std::endl;
+		}
+	});
 }
 
 void Session::start( ) {

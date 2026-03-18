@@ -12,6 +12,7 @@ private:
 	asio::ip::tcp::socket socket;
 	std::array<char, 1024> buffer{};
 	void do_read();
+	void do_write();
 
 
 };
